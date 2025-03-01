@@ -13,7 +13,7 @@ function Register() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      await axios.post('https://sturdy-trout-g4xg59wvw7jpcvv4q-5000.app.github.dev/register', { username, email, password });
+      await axios.post('https://test1-nine-coral.vercel.app/register', { username, email, password });
       alert('Registro exitoso');
     } catch (error) {
       alert('Error en el registro');
