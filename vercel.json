@@ -7,8 +7,5 @@
       { "src": "backend/server.js", "use": "@vercel/node" },
       { "src": "frontend/build/**", "use": "@vercel/static" }
     ],
-    "installCommand": "npm install && cd backend && npm install",
-    "routes": [
-      { "src": "/api/:path*", "dest": "/api/[path]" }
-    ]
+    "installCommand": "npm install && cd backend && npm install"
   }
